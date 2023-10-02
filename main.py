@@ -30,3 +30,11 @@ while True:
     except:
         
         print("Please enter a number.")
+
+        user_input = input("How many characters in password?")
+
+# Calculate 30% and 20% of number characters
+part1 = round(characters_number * (30/100))
+part2 = round(characters_number * (20/100))
+
+
