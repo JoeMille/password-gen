@@ -24,5 +24,9 @@ while True:
             user_input = input("Enter the number of characters you want in your password: ")
             
         else:
+            
             break
+    
+    except:
         
+        print("Please enter a number.")
